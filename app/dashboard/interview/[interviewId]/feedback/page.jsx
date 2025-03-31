@@ -47,7 +47,7 @@ function Feedback({params}) {
             <Collapsible key={index} className='mt-7'>
             <CollapsibleTrigger className='p-2
              bg-secondary rounded-lg flex justify-between
-            my-2 text-left gap-7 w-full'>
+            my-2 text-left gap-7 w-full text-black'>
             {item.question} <ChevronsUpDown className='h-5 w-5'/>
             </CollapsibleTrigger>
             <CollapsibleContent>
